@@ -1,0 +1,15 @@
+{
+    "name": "MediaLibrary",
+    "alias": "MediaLibrary",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MediaLibrary\\Providers\\MediaLibraryServiceProvider"
+    ],
+    "aliases": {
+        "MediaLibrary": "Modules\\MediaLibrary\\Admin\\MediaLibrary.php"
+    },
+    "files": [],
+    "requires": []
+}
